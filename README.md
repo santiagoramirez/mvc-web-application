@@ -10,7 +10,7 @@ The `base-controller.php` file contains the `Controller` abstract class which is
 
 The `base-model.php` file contains the `Model` abstract class which is used as the parent class for all models. The class is used to make prepared queries to the database.
 
-Database login credentials are set in `resources/config.php’.
+Database login credentials are set in `resources/config.php`.
 
 **/core/base-view.php**
 
