@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Locate a file from within the root directory.
+ * Locate a file when given the relative path.
  * @return string|false $absolute_path
  */
 function locate($relative_path)
