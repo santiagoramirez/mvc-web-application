@@ -1,0 +1,4 @@
+# Rewrite for clean urls.
+
+RewriteEngine On
+RewriteRule ^([a-z0-9-]+)$ index.php?page=$1 [QSA]
