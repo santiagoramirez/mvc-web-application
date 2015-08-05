@@ -30,11 +30,11 @@ The core directory contains our applications models, controllers and views.
 
 **/core/controllers**
 
-This directory contains our controller calsses 
+This directory contains our controller classes.
 
 **/core/models**
 
-This directory contains our model calsses.
+This directory contains our model classes.
 
 **/core/views**
 
@@ -42,13 +42,13 @@ This directory contains our view templates and helpers.
 
 **/core/views/helpers**
 
-This directory contains our helpers which prepare data for the corresponding Smarty template. For example, if there is a variable named `{$data}` in the Smarty template `my-page.tpl`, then the helper `my-page.php`, in the helpers folder, will prepare the data contained in the variable `{$data}` by calling on the neccesary controllers and/or models. A helper can also be used to redirect a page if certain conditions are not met.
+This directory contains our helpers which prepare data for the corresponding Smarty template. For example, if there is a variable named `{$data}` in the Smarty template `my-page.tpl`, then the helper `my-page.php`, in the helpers folder, will prepare the data contained in the variable `{$data}` by calling on the necessary controllers and/or models. A helper can also be used to redirect a page if certain conditions are not met.
 
 A helper is not required to render a template, but a template is required to render a page.
 
 **/core/views/templates**
 
-This directory contains our Smarty templates. The file name of each Smarty template should be the name of the page being displayed. For example, given the url `http://example.com?page=my-page` the name of the Smarty template would need to be `my-page.tpl`.
+This directory contains our Smarty templates. The file name of each Smarty template should be the name of the page being displayed. For example, given the URL `http://example.com?page=my-page` the name of the Smarty template would need to be `my-page.tpl`.
 
 **/core/base-controller.php**
 
