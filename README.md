@@ -24,39 +24,36 @@
 /sql
 ```
 
-**/core**
+**/ core**
 
 The core directory contains our applications models, controllers and views.
 
-**core / controllers**
+**/ core / controllers**
 
 This directory contains our controller calsses 
 
-**core / models**
+**/ core / models**
 
 This directory contains our model calsses.
 
-**core / views**
+**/ core / views**
 
 This directory contains our view templates and helpers.
 
-**core / views / helpers**
+**/ core / views / helpers**
 
 This directory contains our helpers which prepare data for the corresponding Smarty template. For example, if there is a variable named `{$data}` in the Smarty template `my-page.tpl`, then the helper `my-page.php`, in the helpers folder, will prepare the data contained in the variable `{$data}` by calling on the neccesary controllers and/or models. A helper can also be used to redirect a page if certain conditions are not met.
 
-**core / views / templates**
+A helper is not required to render a template, but a template is required to render a page.
+
+**/ core / views / templates**
 
 This directory contains our Smarty templates. The file name of each Smarty template should be the name of the page being displayed. For example, given the url `http://example.com?page=my-page` the name of the Smarty template would need to be `my-page.tpl`.
 
 
 
-The file name of a helper should be the same as the page being displayed. For example, given the url `http://example.com?page=my-page` the name of the Smarty template would need to be `my-page.tpl`
 
-A helper is not required
-
-The file name of each helper should be the same as the 
-
-**/core/base-controller.php**
+**/ core / base-controller.php**
 The `base-controller.php` file contains the `Controller` abstract class which is used as the parent class for all controllers. The class is capable of extracting, filtering and validating request data.
 
 **/core/base-model.php**
