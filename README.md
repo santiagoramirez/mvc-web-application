@@ -1,4 +1,14 @@
-### Folder/File Structure
+# MVC Web Application
+
+#### About this repository
+
+I'll admit it, there was a time when I did not know of the term MVC. A time when I wrote spaghetti code like a madman, but those days are long gone. When did this all change, you ask? Well, when I first became familiar with AngularJS.
+
+Learning AngularJS forced me to research the concept of MVC more in depth and it did not take long before I realized the benefits MVC could offer; if implemented in a backend web application. The only problem was that I could not find a reliable source on how to implement it. Sure, there are PHP frameworks, but a framework just didn't cut it. I wanted to build my own implementation from scratch.
+
+After much research, trial, and error, this repository contains what I think is a great way to implement MVC in a backend web application.
+
+#### The Folder and File Structure
 
 ```
 /core
