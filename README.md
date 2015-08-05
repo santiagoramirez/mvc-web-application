@@ -31,12 +31,11 @@ After much research, trial, and error, this repository contains what I think is 
     /libs
     config.php
     functions.php
-/sql
 ```
 
 **/core**
 
-The core directory contains our applications models, controllers and views.
+The core directory contains our applications models, controllers, and views.
 
 **/core/controllers**
 
@@ -73,3 +72,31 @@ Database login credentials are set in `resources/config.php`.
 **/core/base-view.php**
 
 The `base-view.php` file contains the `View` class which determines the current page to be displayed by searching the `core/views/templates` and `core/views/helpers` directory for a file that correlates to the name of the page to be displayed.
+
+**/public**
+
+This directory contains files which are visible through the domain.
+
+**/public/assets**
+
+This directory contains all the CSS/SASS, images and JavaScript used in our web application.
+
+**/public/index.php**
+
+The `index.php` require all the necessary files needed to run our application and calls on the `View` class to render the current page.
+
+**/resources**
+
+This directory contains files which are not necessarily the core of our application, but are used to assist our core application.
+
+**/resources/classes**
+
+This directory contains any class which is used in our web application.
+
+**/resources/libs**
+
+This directory contains any library which is used in our web application. Smarty is the only library by default since it is used to render our templates.
+
+**/resources/config.php**
+
+The `config.php` file is where we configure our web application to run on the server.
