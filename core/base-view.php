@@ -90,6 +90,14 @@ class View
 	}
 
 	/**
+	 * Redirect to a different URL within the website.
+	 * @param string $url
+	 */
+	public function redirectTo($url) {
+		header('Location: '.DOMAIN_ROOT.'/'.$url);
+	}
+
+	/**
 	 * Let's render our page!
 	 */
 	public function render() {
