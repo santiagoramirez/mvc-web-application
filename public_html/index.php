@@ -5,6 +5,10 @@
  *
  * It calls the View::render() method to determine the current page to
  * be displayed.
+ *
+ * @author Santiago Ramirez
+ * @link http://santiagoramirez.net
+ * @link https://github.com/santiagoramirez
  */
 
 require_once '../resources/config.php';

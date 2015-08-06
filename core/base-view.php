@@ -1,10 +1,38 @@
 <?php
 
+/**
+ * This is the View class. It is resposible for rendering the current page
+ *
+ * @author Santiago Ramirez
+ * @link http://santiagoramirez.net
+ * @link https://github.com/santiagoramirez
+ */
+
 class View
 {
+	/**
+	 * The current page being rendered.
+	 * @var string $_page
+	 */
 	private $_page;
+
+	/**
+	 * The templates folder path. This is defined in resources/config.php.
+	 * @var string $_tpl_path
+	 */
 	private $_tpl_path;
+
+	/**
+	 * The helpers folder path. This is defined in resources/config.php.
+	 * @var string $_helper_path
+	 */
 	private $_helper_path;
+
+	/**
+	 * Search for templates in a subdirectory. This subdirectory corresponds
+	 * with the domain URL.
+	 * @var string $_subdir
+	 */
 	private $_subdir;
 
 	/**

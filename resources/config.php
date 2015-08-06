@@ -23,7 +23,7 @@ defined('TABLE_PREFIX')
     or define('TABLE_PREFIX', '');
 
 defined('DOMAIN_ROOT')
-    or define('DOMAIN_ROOT', 'http://localhost/mvc-web-application');
+    or define('DOMAIN_ROOT', 'http://localhost/mvc-web-application/public_html');
 
 defined('SERVER_ROOT')
     or define('SERVER_ROOT', $_SERVER['DOCUMENT_ROOT'].'/mvc-web-application');
