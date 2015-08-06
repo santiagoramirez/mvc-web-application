@@ -28,6 +28,12 @@ defined('DOMAIN_ROOT')
 define('SERVER_ROOT')
     or define('SERVER_ROOT', $_SERVER['DOCUMENT_ROOT'].'/mvc-web-application');
 
+defined('HELPERS_ROOT')
+    or define('HELPERS_ROOT', SERVER_ROOT.'/core/views/helpers');
+
+defined('TEMPLATES_ROOT')
+    or define('TEMPLATES_ROOT', SERVER_ROOT.'/core/views/templates');
+
 defined('MAINTENANCE_MODE')
     or define('MAINTENANCE_MODE', false);
 
