@@ -7,7 +7,7 @@
  * be displayed.
  */
 
-require_once '../config.php';
+require_once '../resources/config.php';
 
 $view = new View;
 $view->render();
