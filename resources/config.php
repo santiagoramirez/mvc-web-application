@@ -7,23 +7,25 @@
  * and defines commonly used constants.
  */
 
-require_once 'functions.php';
+defined('DB_NAME')
+    or define('DB_NAME','mvc_app');
 
-define('DB_NAME','');
+defined('DB_HOSTNAME')
+    or define('DB_HOSTNAME', 'localhost');
 
-define('DB_HOSTNAME', '');
+defined('DB_USERNAME')
+    or define('DB_USERNAME', 'santiagoramirez');
 
-define('DB_USERNAME', '');
+defined('DB_PASSWORD')
+    or define('DB_PASSWORD', 'somethingcomplex');
 
-define('DB_PASSWORD', '');
+defined('TABLE_PREFIX')
+    or define('TABLE_PREFIX', '');
 
-define('TABLE_PREFIX', '');
+defined('DOMAIN_ROOT')
+    or define('DOMAIN_ROOT', 'http://localhost/mvc-web-application');
 
-define('DOMAIN_ROOT', '');
 
-define('SERVER_ROOT', $_SERVER['DOCUMENT_ROOT']);
-
-define('MAINTENANCE_MODE', false);
 
 require_once locate('core/base-controller.php');
 require_once locate('core/base-model.php');
