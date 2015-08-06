@@ -41,8 +41,6 @@ require_once 'functions.php';
 require_once locate('core/base-controller.php');
 require_once locate('core/base-model.php');
 require_once locate('core/base-view.php');
-require_once locate('resources/classes/secure-session.php');
-require_once locate('resources/libs/smarty-3.1.27/smarty.php');
-
+require_once locate('resources/libs/smarty-3.1.27/Smarty.class.php');
 
 ?>
