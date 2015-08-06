@@ -25,7 +25,7 @@ defined('TABLE_PREFIX')
 defined('DOMAIN_ROOT')
     or define('DOMAIN_ROOT', 'http://localhost/mvc-web-application');
 
-define('SERVER_ROOT')
+defined('SERVER_ROOT')
     or define('SERVER_ROOT', $_SERVER['DOCUMENT_ROOT'].'/mvc-web-application');
 
 defined('HELPERS_ROOT')
