@@ -7,7 +7,6 @@
  * be displayed.
  */
 
-
 require_once '../config.php';
 
 $view = new View;
